@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://auction.me.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://auction.me.org/">
+
+<xs:element name="IOException" type="tns:IOException"/>
+
+<xs:element name="SecretQuestion" type="tns:SecretQuestion"/>
+
+<xs:element name="SecretQuestionResponse" type="tns:SecretQuestionResponse"/>
+
+<xs:element name="bidMade" type="tns:bidMade"/>
+
+<xs:element name="bidMadeResponse" type="tns:bidMadeResponse"/>
+
+<xs:element name="fetchProducts" type="tns:fetchProducts"/>
+
+<xs:element name="fetchProductsResponse" type="tns:fetchProductsResponse"/>
+
+<xs:element name="insertUser" type="tns:insertUser"/>
+
+<xs:element name="insertUserResponse" type="tns:insertUserResponse"/>
+
+<xs:element name="login" type="tns:login"/>
+
+<xs:element name="loginResponse" type="tns:loginResponse"/>
+
+<xs:element name="passwordChange" type="tns:passwordChange"/>
+
+<xs:element name="passwordChangeResponse" type="tns:passwordChangeResponse"/>
+
+<xs:element name="product" type="tns:product"/>
+
+<xs:element name="productDetails" type="tns:productDetails"/>
+
+<xs:element name="productDetailsResponse" type="tns:productDetailsResponse"/>
+
+<xs:element name="productResponse" type="tns:productResponse"/>
+
+<xs:element name="updateUser" type="tns:updateUser"/>
+
+<xs:element name="updateUserResponse" type="tns:updateUserResponse"/>
+
+<xs:complexType name="updateUser">
+<xs:sequence>
+<xs:element name="user" type="xs:string" minOccurs="0"/>
+<xs:element name="pass" type="xs:string" minOccurs="0"/>
+<xs:element name="mail" type="xs:string" minOccurs="0"/>
+<xs:element name="quest" type="xs:string" minOccurs="0"/>
+<xs:element name="questAnswer" type="xs:string" minOccurs="0"/>
+<xs:element name="userTel" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateUserResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SecretQuestion">
+<xs:sequence>
+<xs:element name="usersname" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SecretQuestionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="login">
+<xs:sequence>
+<xs:element name="userNm" type="xs:string" minOccurs="0"/>
+<xs:element name="passWd" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="loginResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="IOException">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="productDetails">
+<xs:sequence>
+<xs:element name="itemID" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="productDetailsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fetchProducts">
+<xs:sequence>
+<xs:element name="products" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fetchProductsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="passwordChange">
+<xs:sequence>
+<xs:element name="usename" type="xs:string" minOccurs="0"/>
+<xs:element name="answer" type="xs:string" minOccurs="0"/>
+<xs:element name="newPassword" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="passwordChangeResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertUser">
+<xs:sequence>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="email" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+<xs:element name="question" type="xs:string" minOccurs="0"/>
+<xs:element name="answer" type="xs:string" minOccurs="0"/>
+<xs:element name="telephone" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertUserResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="product">
+<xs:sequence>
+<xs:element name="productName" type="xs:string" minOccurs="0"/>
+<xs:element name="description" type="xs:string" minOccurs="0"/>
+<xs:element name="productPrice" type="xs:string" minOccurs="0"/>
+<xs:element name="seller" type="xs:string" minOccurs="0"/>
+<xs:element name="date" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="productResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="bidMade">
+<xs:sequence>
+<xs:element name="biddersName" type="xs:string" minOccurs="0"/>
+<xs:element name="productID" type="xs:string" minOccurs="0"/>
+<xs:element name="bidValue" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="bidMadeResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
