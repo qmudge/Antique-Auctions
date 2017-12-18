@@ -8,7 +8,7 @@ For full functionality/features please refer to user documentation.
 ![2 try to access auctions page but not signed in](https://user-images.githubusercontent.com/34503137/34120012-dfdbf752-e42c-11e7-984b-59b575c508f1.png)
 ## Register for a new account.
 ![3 register new account](https://user-images.githubusercontent.com/34503137/34122026-aefb43ca-e433-11e7-9f5e-3504e668e905.png)
-## Add new users details, Checks that all fields are valid input
+## Add new users details, Checks that all fields are valid input.
 ![4 register form filled](https://user-images.githubusercontent.com/34503137/34122150-210e0b28-e434-11e7-83a6-c0af5cf11410.png)
 ## New account has been successfully created.
 ![5 account created](https://user-images.githubusercontent.com/34503137/34122785-3a1a6ccc-e436-11e7-940e-3dc3bcbe0527.png)
@@ -20,3 +20,5 @@ For full functionality/features please refer to user documentation.
 ![8 secret question](https://user-images.githubusercontent.com/34503137/34123909-c7e1f518-e439-11e7-9aa1-7f6968edf354.png)
 ## Once user has signed in with correct username/password, Auctions page is displayed.
 ![14 auction page](https://user-images.githubusercontent.com/34503137/34125364-b49d1ae6-e43e-11e7-85de-541068be1f27.png)
+## When an items button is clicked, Details are displayed. The system checks if the auctions period has expired.
+![15 view an item expired](https://user-images.githubusercontent.com/34503137/34125702-e42ced26-e43f-11e7-8528-6691d6f530fa.png)
