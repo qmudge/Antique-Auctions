@@ -34,3 +34,5 @@ For full functionality/features please refer to user documentation.
 ![23 new item details](https://user-images.githubusercontent.com/34503137/34129384-a3af0538-e44c-11e7-8a77-bd4f3f1ff857.png)
 ## "My account details" link is selected from auctions page.
 ![24 view account details page](https://user-images.githubusercontent.com/34503137/34129578-4ce565b6-e44d-11e7-877d-59989f5f7fd1.png)
+## User can make changes to personal details, Checks for valid input.
+![26 details updated](https://user-images.githubusercontent.com/34503137/34129748-e827361c-e44d-11e7-9713-ec4f307aa666.png)
