@@ -16,3 +16,5 @@ For full functionality/features please refer to user documentation.
 ![6 sign in page](https://user-images.githubusercontent.com/34503137/34123352-e5e7c65c-e437-11e7-8986-8c105b5297dc.png)
 ## User selects the "change" link if their password has been forgotten.
 ![7 forgot password](https://user-images.githubusercontent.com/34503137/34123600-c1a932f2-e438-11e7-9223-b6c00ec94aff.png)
+## If a valid username is entered. The users password may be changed by answering their secret question correctly.
+![8 secret question](https://user-images.githubusercontent.com/34503137/34123909-c7e1f518-e439-11e7-9aa1-7f6968edf354.png)
