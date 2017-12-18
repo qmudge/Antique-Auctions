@@ -24,3 +24,5 @@ For full functionality/features please refer to user documentation.
 ![15 view an item expired](https://user-images.githubusercontent.com/34503137/34125702-e42ced26-e43f-11e7-8528-6691d6f530fa.png)
 ## If the item has not expired and bid amount is atleast 5% higher than current highest bid, A new bid is placed.
 ![18 bid placed](https://user-images.githubusercontent.com/34503137/34128395-3267f5ea-e449-11e7-8536-39a8e031182b.png)
+## User selects the "sell an item" option from auctions page.
+![19 sell an item page](https://user-images.githubusercontent.com/34503137/34128881-d65b2c7a-e44a-11e7-805e-cd10f1e25a90.png)
