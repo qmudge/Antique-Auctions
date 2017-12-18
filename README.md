@@ -6,3 +6,5 @@ For full functionality/features please refer to user documentation.
 ![1 start page](https://user-images.githubusercontent.com/34503137/34119401-ac8f42ac-e42a-11e7-877e-2b04d1ea0e6e.png)
 ## Can only access other pages once logged in.
 ![2 try to access auctions page but not signed in](https://user-images.githubusercontent.com/34503137/34120012-dfdbf752-e42c-11e7-984b-59b575c508f1.png)
+## Register for a new account.
+![3 register new account](https://user-images.githubusercontent.com/34503137/34122026-aefb43ca-e433-11e7-9f5e-3504e668e905.png)
