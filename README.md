@@ -30,3 +30,5 @@ For full functionality/features please refer to user documentation.
 ![20 new item for auction](https://user-images.githubusercontent.com/34503137/34129159-ca040630-e44b-11e7-8236-08c279a92de1.png)
 ## New auction appears on the list.
 ![22 new item displayed](https://user-images.githubusercontent.com/34503137/34129255-256cef82-e44c-11e7-8cdb-75fb5d3155eb.png)
+## New auction will expire exactly 5 days after date of listing.
+![23 new item details](https://user-images.githubusercontent.com/34503137/34129384-a3af0538-e44c-11e7-8a77-bd4f3f1ff857.png)
