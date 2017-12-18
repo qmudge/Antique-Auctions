@@ -22,3 +22,5 @@ For full functionality/features please refer to user documentation.
 ![14 auction page](https://user-images.githubusercontent.com/34503137/34125364-b49d1ae6-e43e-11e7-85de-541068be1f27.png)
 ## When an items button is clicked, Details are displayed. The system checks if the auctions period has expired.
 ![15 view an item expired](https://user-images.githubusercontent.com/34503137/34125702-e42ced26-e43f-11e7-8528-6691d6f530fa.png)
+## If the item has not expired and bidding price is atleast 5% higher than current highest bid,  A new auction is created and the new expiry date will be adjusted to exactly 7 days from time of placement.
+![18 bid placed](https://user-images.githubusercontent.com/34503137/34128395-3267f5ea-e449-11e7-8536-39a8e031182b.png)
