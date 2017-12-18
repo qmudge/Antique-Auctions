@@ -36,3 +36,5 @@ For full functionality/features please refer to user documentation.
 ![24 view account details page](https://user-images.githubusercontent.com/34503137/34129578-4ce565b6-e44d-11e7-877d-59989f5f7fd1.png)
 ## User can make changes to personal details, Checks for valid input.
 ![26 details updated](https://user-images.githubusercontent.com/34503137/34129748-e827361c-e44d-11e7-9713-ec4f307aa666.png)
+## User will be logged out if either there is inactivity for longer than 5 minutes, Or the "log out" selecton is made from the menu.
+![27 log off message](https://user-images.githubusercontent.com/34503137/34129834-498e6c54-e44e-11e7-9fd2-945c98cbd2f4.png)
