@@ -14,3 +14,5 @@ For full functionality/features please refer to user documentation.
 ![5 account created](https://user-images.githubusercontent.com/34503137/34122785-3a1a6ccc-e436-11e7-940e-3dc3bcbe0527.png)
 ## Sign in page.
 ![6 sign in page](https://user-images.githubusercontent.com/34503137/34123352-e5e7c65c-e437-11e7-8986-8c105b5297dc.png)
+## User selects the "change" link if their password has been forgotten.
+![7 forgot password](https://user-images.githubusercontent.com/34503137/34123600-c1a932f2-e438-11e7-9223-b6c00ec94aff.png)
