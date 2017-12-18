@@ -10,5 +10,7 @@ For full functionality/features please refer to user documentation.
 ![3 register new account](https://user-images.githubusercontent.com/34503137/34122026-aefb43ca-e433-11e7-9f5e-3504e668e905.png)
 ## Add new users details, Checks that all fields are valid input
 ![4 register form filled](https://user-images.githubusercontent.com/34503137/34122150-210e0b28-e434-11e7-83a6-c0af5cf11410.png)
-## New account has been created.
+## New account has been successfully created.
 ![5 account created](https://user-images.githubusercontent.com/34503137/34122785-3a1a6ccc-e436-11e7-940e-3dc3bcbe0527.png)
+## Sign in page.
+![6 sign in page](https://user-images.githubusercontent.com/34503137/34123352-e5e7c65c-e437-11e7-8986-8c105b5297dc.png)
